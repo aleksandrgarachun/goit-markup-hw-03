@@ -1,0 +1,150 @@
+:root {
+    --color-paragraph-footer: #F4F4FD;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+    font-size: 16px;
+}
+.nav {
+    background-color: #FFFFFF;;
+}
+.nav-link {
+    color: #2E2F42;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+}
+.nav-link:hover,
+.nav-link:focus {
+    color: #404bbf;
+}
+.address {
+    font-style: normal;
+}
+.address-info {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.address-info:hover,
+.address-info:focus {
+    color: #404bbf;
+}
+.order-sec {
+    background-color: #2E2F42;
+
+}
+.order-title {
+    font-size: 56px;
+    line-height: 1.47;
+    text-align: center;
+    letter-spacing: 0.02em;
+    line-height: 1.07;
+    color: #ffffff;
+    
+}
+.order-button{
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+
+}
+.order-button:hover,
+.order-button:focus {
+    background-color: #404BBF;
+}
+.title-desc {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.paragraph-desc {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    font-size: 16px;
+}
+.team-sec {
+    background-color: #F4F4FD;
+
+}
+.title-team {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+.title-portfolio {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+.img-team {
+    background-color: #FFFFFF;
+}
+.img-portfolio {
+    background-color: #FFFFFF;
+}
+.title-portfolio-img {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.paragraph-portfolio {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+
+}
+.footer {
+    background-color: #2e2f42;
+}
+.paragraph-footer {
+    line-height: 1.5;
+    color: var(--color-paragraph-footer);
+    letter-spacing: 0.02em;
+}
+
+h1 {
+    color: #FFFFFF;
+}
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+    
+}
+.right-logo-heder {
+    color: #2E2F42;
+}
+.right-logo-footer {
+    color: #f4f4fd;
+
+}
