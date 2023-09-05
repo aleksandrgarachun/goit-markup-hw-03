@@ -17,6 +17,10 @@
 }
 ul {
     list-style: none;
+    
+}
+img {
+    display: block;
 }
 a {
     text-decoration: none;
@@ -27,8 +31,11 @@ body {
     background-color: #FFFFFF;
     font-size: 16px;
 }
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
 .nav {
-    background-color: #FFFFFF;;
+    background-color: #FFFFFF;
 }
 .nav-link {
     color: #2E2F42;
@@ -161,4 +168,11 @@ h1 {
 .right-logo-footer {
     color: #f4f4fd;
 
+}
+.section {
+    padding: 60px 0;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
 }
