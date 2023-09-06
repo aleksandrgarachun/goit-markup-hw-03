@@ -197,6 +197,9 @@ h1 {
 .container {
     max-width: 1440px;
     margin: 0 auto;
+    display: flex;
+        width: 1158px;
+        padding: 0 15px;
 }
 .list-desc {
     display: flex;
@@ -217,13 +220,13 @@ h1 {
     border-bottom: 1px solid #e7e9fc;
 
 }
-.container-header {
+/*.container-header {
     max-width: 1440px;
     margin: 0 auto;
     display: flex;
     width: 1158px;
     padding: 0 15px;
-}
+}*/
 .nav-menu {
     display: flex;
     gap: 40px;
