@@ -105,15 +105,18 @@ h1 {
     letter-spacing: 0.02em;
     color: #2E2F42;
     margin-bottom: 8px;
+    text-align: center;
 }
 .paragraph-desc {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
     font-size: 16px;
+    text-align: center;
 }
 .team-sec {
     background-color: #F4F4FD;
+    padding: 120px 0;
 
 }
 .title-team {
@@ -123,6 +126,8 @@ h1 {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
+    
 }
 .title-portfolio {
     font-size: 36px;
@@ -134,6 +139,9 @@ h1 {
 }
 .img-team {
     background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+    object-fit: cover;
 }
 .img-portfolio {
     background-color: #FFFFFF;
@@ -192,4 +200,12 @@ h1 {
 }
 .item-desc {
     width: calc((100% - 72px) / 4);
+}
+.list-team {
+    display: flex;
+    gap: 24px;
+    
+}
+.conteiner-team {
+    padding: 32px 0;
 }
