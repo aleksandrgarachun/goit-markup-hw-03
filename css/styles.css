@@ -47,12 +47,19 @@ h1 {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    display: flex;
     padding: 24px 0;
 
 }
 .nav-link:hover,
 .nav-link:focus {
     color: #404bbf;
+}
+.nav-menu {
+    display: flex;
+    gap: 40px;
+    padding: 24px 0;
+
 }
 .address {
     font-style: normal;
@@ -150,7 +157,7 @@ h1 {
 }
 .img-team {
     background-color: #FFFFFF;
-    width: calc((100% - 3 * 24px) / 4);
+    width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
     
 }
@@ -253,11 +260,7 @@ h1 {
 
 }
 
-.nav-menu {
-    display: flex;
-    gap: 40px;
-    padding: 24px 0;
-}
+
 .address-menu {
     display: flex;
     gap: 40px;
