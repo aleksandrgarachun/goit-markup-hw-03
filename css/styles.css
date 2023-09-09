@@ -52,10 +52,7 @@ h1 {
     justify-content: space-between;
     align-items: center;
     gap: 24px;
-    width: 1158px;
-    padding: 0 15px;
-    margin: 0 auto;
-}
+    }
 /*
 .header> .container {
     display: flex;
@@ -213,14 +210,14 @@ h1 {
     letter-spacing: 0.02em;
     color: #2E2F42;
     margin-bottom: 8px;
-    text-align: center;
+    text-align: left;
 }
 .paragraph-desc {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
     font-size: 16px;
-    text-align: center;
+    text-align: left;
 }
 
 /* Team 3 */
